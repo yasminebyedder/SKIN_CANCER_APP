@@ -29,4 +29,4 @@ Application permettant aux professionnels de santé de :
 5. Lancer l'application : `python app.py`
 
 ## Auteur
-yasminebyedder - ENSTAB 2025/2026
+yasmine ben yedder - ENSTAB 2025/2026
