@@ -2,6 +2,21 @@
 
 Application Web Flask de détection de cancer cutané avec VGG16 (Transfer Learning)
 
+### Page de Connexion
+![Login](screenshots/login.png)
+
+### Dashboard
+![Dashboard](screenshots/dashboard.png)
+
+### Analyse d'une lésion
+![Predict](screenshots/predict.png)
+
+### Résultat
+![Résultat](screenshots/result.png)
+
+### Liste des patients
+![Patients](screenshots/patients.png)
+
 ## Description
 Application permettant aux professionnels de santé de :
 - Se connecter via un système d'authentification
@@ -28,5 +43,17 @@ Application permettant aux professionnels de santé de :
 4. Créer la base de données `skin_cancer_db`
 5. Lancer l'application : `python app.py`
 
+## Comment lancer le projet
+1. Installer les dépendances :
+`pip install flask tensorflow mysql-connector-python numpy`
+2. Lancer XAMPP et démarrer MySQL
+3. Créer la base de données `skin_cancer_db`
+4. Lancer : `python app.py`
+5. Ouvrir `http://127.0.0.1:5000`
+
+## Identifiants
+- Username : `admin`
+- Password : `1234`
+
 ## Auteur
-yasmine ben yedder - ENSTAB 2025/2026
+yasmine ben yedder - 1TA1 - ENSTAB 2025/2026
